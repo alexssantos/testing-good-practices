@@ -10,10 +10,11 @@ Sample 1: Calculator
 BDD with SpecFlow using .net core.
 language: c# (dotnet core 3.1)
 
-steps: 
-	1. Install SpecFlow for Visual Studio 2019 (link)[https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio]
-	2. Create the Test Project 
-	3. Escreva a funcionalidade e o cenário em um arquivo '.feature' como o exemplo  abaixo.
+steps:
+
+1. Install SpecFlow for Visual Studio 2019 [link](https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowForVisualStudio)
+2. Create the Test Project 
+3. Escreva a funcionalidade e o cenário em um arquivo '.feature' como o exemplo  abaixo.
 
 ```
 #language: pt-br
@@ -31,13 +32,10 @@ Cenário: Somar dois números
 	Então o resultado da resposta deverá ser 70
 ```
 
-	4. Generate Definitons Classe: Click right button on.feature file and 'Generate Step Definition' option.
-	5. Executing your First Test: Select Test : Windows > Teste Explorer, Run All.
-	6. Create Class Library Project and CalculatorClass
-	7. References the CalculatorClass in Test Project and create an instance on StepDefinitoin.
-	8. Binding the First Given Statement, Second Given Statement, When Statement and Then Statement.
-	9. You will take install Microsoft.NET.Test.Sdk and MSTest.TestFramework packages.
-	10. You will have to connect your MS Account with SpecFlow+ account.
-
-
-
+4. Generate Definitons Classe: Click right button on.feature file and 'Generate Step Definition' option.
+5. Executing your First Test: Select Test : Windows > Teste Explorer, Run All.
+6. Create Class Library Project and CalculatorClass
+7. References the CalculatorClass in Test Project and create an instance on StepDefinitoin.
+8. Binding the First Given Statement, Second Given Statement, When Statement and Then Statement.
+9. You will take install Microsoft.NET.Test.Sdk and MSTest.TestFramework packages.
+10. You will have to connect your MS Account with SpecFlow+ account.
